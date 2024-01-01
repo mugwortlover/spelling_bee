@@ -10,8 +10,7 @@ def autogui(words):
         pag.write(word)
         time.sleep(0.25)
         pag.press('enter')
-        time.sleep(0.25)
-
+        time.sleep(0.5)
 
 
 if __name__ == '__main__':
